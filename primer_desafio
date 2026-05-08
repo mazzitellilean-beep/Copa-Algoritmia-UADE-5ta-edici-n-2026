@@ -61,9 +61,9 @@ tabla = sorted(
     equipos.items(),
     # Ordenamiento de la tabla
     key=lambda x: (
-        x[1]["puntos"],
-        x[1]["dg"],
-        x[1]["gf"],
+        -x[1]["puntos"],
+        -x[1]["dg"],
+        -x[1]["gf"],
         x[0]
     )
 )
