@@ -1,10 +1,15 @@
 # Copa-Algoritmia-UADE
-Grupo "Línea por línea"
+## Grupo "Línea por línea"
 
-Desafío 1: Completado.
+---
 
-Desafío 2: En proceso...
+En este repositorio subiré los desafíos resueltos y las consignas de la quinta edición de la `Copa Algoritmia UADE`.
+Todos los ejercicios fueron realizados en conjunto con mi grupo, contando con:
 
-Desafío 3: Todavía no fue publicado.
+- Malena Fruto
+- Federico López Rubio
+- María Emilia Gutierrez
+- Leandro Mazzitelli
 
-Desafío 4: Todavía no fue publicado.
+Este torneo, llevado a cabo por UADE y PWC Argentina en conjunto, está pensado para alumnos cursando materias de primer año relacionadas con programación, e incluye principalmente problemas resueltos en Python. 
+Esto es excluyendo el último desafío, disponible sólo para los 10 mejores equipos: programar a `Ottoman`, el robot humanoide de la UADE.
