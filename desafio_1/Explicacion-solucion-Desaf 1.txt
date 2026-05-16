@@ -1,0 +1,24 @@
+Nuestra fuente de datos consiste en un archivo de texto (.txt) en el que se declara la cantidad de partidos (que debería ser 6) en la
+primera línea; en las siguientes, se detallan los partidos siguiendo el formato: selección local, selección visitante, goles del local y 
+goles del visitante. 
+Para comenzar la recolección de esta información, primero definimos un diccionario llamado 'equipos' en el que, a medida que se leen las
+líneas del archivo, se agregan los conjuntos mediante una función propia denominada 'agregar_equipo'. Cuando un equipo ingresa al
+diccionario principal, se crea para él un nuevo diccionario que recopila las siguientes estadísticas: partidos jugados (pj), goles a favor
+(gf), goles en contra (gc), diferencia de gol (dg) y puntos (puntos). De esta manera, 'equipos' se convierte en un diccionario de
+diccionarios.
+Por otro lado, definimos una lista llamada 'partidos_jugados', cuya función es de carácter auxiliar y sirve para verificar si existen
+enfrentamientos repetidos. Para continuar, implementamos el uso de bloques 'try-except' para gestionar errores relacionados con el archivo
+o su contenido. Utilizamos la sentencia 'with' para abrir el archivo en modo lectura y asegurar su cierre automático.
+La variable 'n_esperado' se iguala a la primera línea del archivo para transformar el dato en un entero; de esta forma, verificamos que la
+cantidad de partidos procesados coincida con la especificada y que sea exactamente igual a 6. Asimismo, validamos que el archivo no esté
+vacío.
+En el paso siguiente, mediante un ciclo 'for', procesamos cada línea obteniendo el número de línea y la cadena de caracteres. Esto nos 
+permite ignorar líneas vacías y guardar en una lista llamada 'partes' cada palabra como un elemento independiente. Así, evaluamos la 
+longitud de la lista para confirmar que contenga los 4 datos requeridos. Una vez corroborado, asignamos los elementos a variables 
+independientes (local, visitante, goles local, goles visitante) para transformar los goles en enteros y verificar que cumplan los límites
+de la consigna (entre 0 y 20 goles). También aplicamos validaciones propias: un equipo no puede jugar contra sí mismo ni contra un mismo
+rival dos veces. 
+Finalmente, si todas las validaciones son exitosas, el programa organiza la tabla para designar a los dos primeros clasificados y al 
+tercero, aplicando los criterios de desempate: puntos, diferencia de gol, goles a favor y, en última instancia, prioridad alfabética. 
+Para ello, utilizamos la función 'sorted()' con una función 'lambda' que ordena los elementos según las prioridades establecidas. El 
+proceso concluye mostrando por pantalla los clasificados y el tercero del grupo.
