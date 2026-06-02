@@ -25,9 +25,9 @@ Esta es la **quinta edición** del torneo.
 
 | Integrante | GitHub |
 |---|---|
-| Malena Fruto | — |
-| Federico López Rubio | — |
-| María Emilia Gutierrez | — |
+| Malena Fruto | [@malenafruto08](https://github.com/malenafruto08) |
+| Federico López Rubio | [@fedelopezrubio](https://github.com/fedelopezrubio) |
+| María Emilia Gutierrez | [@emiliagutierrez08](https://github.com/emiliagutierrez08) |
 | Leandro Mazzitelli | [@mazzitellilean-beep](https://github.com/mazzitellilean-beep) |
 
 ---
@@ -39,19 +39,6 @@ Esta es la **quinta edición** del torneo.
 | 1 | Tabla de Posiciones | Clasificación de selecciones en un grupo de fase inicial | [`primer_desafio.py`](./primer_desafio.py) |
 
 > *La tabla se irá completando a medida que se publiquen y resuelvan los siguientes desafíos.*
-
----
-
-## 🗂️ Estructura del Repositorio
-
-```
-copa-algoritmia/
-│
-├── primer_desafio.py          # Solución del desafío 1
-├── partidos.txt               # Archivo de entrada para el desafío 1
-│
-└── README.md                  # Este archivo
-```
 
 ---
 
@@ -68,7 +55,7 @@ cd copa-algoritmia
 python primer_desafio.py
 ```
 
-> Algunos desafíos requieren un archivo de entrada (como `partidos.txt`). Asegurate de tenerlo en el mismo directorio que el script antes de ejecutarlo.
+> El segundo desafío requiere un archivo de entrada "partidos.txt" pero en el caso de no tenerlo, se generará uno automáticamente (el archivo generado estará vacío así que asegurate de rellenarlo antes de volver a intentar)
 
 ---
 
