@@ -12,4 +12,3 @@ Todos los ejercicios fueron realizados en conjunto con mi grupo, contando con:
 - Leandro Mazzitelli
 
 Este torneo, llevado a cabo por UADE y PWC Argentina en conjunto, está pensado para alumnos cursando materias de primer año relacionadas con programación, e incluye principalmente problemas resueltos en Python. 
-Esto es excluyendo el último desafío, disponible sólo para los 10 mejores equipos: programar a `Ottoman`, el robot humanoide de la UADE.
