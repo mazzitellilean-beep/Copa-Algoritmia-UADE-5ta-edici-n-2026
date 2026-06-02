@@ -32,16 +32,6 @@ Esta es la **quinta edición** del torneo.
 
 ---
 
-## 📂 Desafíos
-
-| # | Desafío | Descripción | Solución |
-|---|---|---|---|
-| 1 | Tabla de Posiciones | Clasificación de selecciones en un grupo de fase inicial | [`primer_desafio.py`](./primer_desafio.py) |
-
-> *La tabla se irá completando a medida que se publiquen y resuelvan los siguientes desafíos.*
-
----
-
 ## ▶️ Cómo ejecutar los desafíos
 
 Todos los ejercicios están desarrollados en **Python 3** y no requieren dependencias externas. Solo hace falta tener Python instalado:
