@@ -108,10 +108,10 @@ try:
         tabla = sorted(equipos.items(), key=lambda equipo: (-equipo[1]["puntos"], -equipo[1]["diferencia_de_goles"], -equipo[1]["goles_a_favor"], equipo[0]))
 
         print(f"Clasificados:")
-        print(f"Primer clasificado: {tabla[0][0]}")
-        print(f"Segundo clasificado: {tabla[1][0]}")
+        print(tabla[0][0])
+        print(tabla[1][0])
         print("Tercero")
-        print(f"Tercer clasificado: {tabla[2][0]}")
+        print(tabla[2][0])
 
 except FileNotFoundError:
     print(f"Error: No se encontró el archivo {archivo_nombre}")
